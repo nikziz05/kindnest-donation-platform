@@ -11,7 +11,8 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:3001',
-  process.env.FRONTEND_URL, // Your Vercel URL
+  process.env.https://kindnest-tau.vercel.app/,
+  'https://kindnest-tau.vercel.app/'
 ];
 
 app.use(cors({
